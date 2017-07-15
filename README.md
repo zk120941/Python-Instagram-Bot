@@ -83,7 +83,6 @@ We use [SemVer](http://semver.org/) for versioning.
 * **Vezel** - *Initial work*
 * **Francesco Aiello** * - *Project updating and improvements*
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
