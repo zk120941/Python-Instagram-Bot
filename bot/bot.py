@@ -46,10 +46,10 @@ class Instagram:
             index = index + 1
             self.browser.get(url)
             self.comment(self.get_comment())
-            if index%25 == 0: # initiate delay every 25 minutes
-                time.sleep(8 * 60) # ^ pause for 8 minutes
+            if index%60 == 0: # start delay every hour
+                time.sleep(30 * 60) # ^ pause for 30 minutes
             else:
-                time.sleep(20) # delay after every comment in seconds (default 20)
+                time.sleep(36) # delay after every comment in seconds (default 36)
 
     def get_comment(self):
         with open(self.msgs) as f:

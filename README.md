@@ -70,6 +70,11 @@ what tag should we search for: enter the Instagram tag you would like to use. Fo
 ```
 The bot will now open a chrome browser and begin commenting on photos. The delay between posts and total posts is pre-set, but can be customized.
 
+Delays by default:
+
+1 comment every 36 seconds
+After 1 hour of commenting, pause for 30 minutes.
+
 ## Contributing
 
 Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
